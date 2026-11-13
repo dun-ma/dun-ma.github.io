@@ -11,4 +11,5 @@ h1{font-size:30px;line-height:1.1;font-weight:bold;color:var(--blue);padding:0 0
 h2{font-size:20px;font-weight:bold;color:var(--blue);border-bottom:1px solid var(--gray);margin:32px 0 10px;padding:0 0 2px}
 p{margin:0 0 11px}.profile{padding:0 8px;margin-bottom:32px}.profile p{margin:0 0 15px}.contact{margin-top:8px}
 .about{max-width:950px}.bodycopy{max-width:950px}.simple-list{margin:0 0 14px;padding-left:34px}.simple-list li{margin:7px 0}
+.visit-counter{margin:22px 0 0}.visit-counter img{display:inline-block;height:20px;width:auto;vertical-align:middle}
 @media(max-width:640px){.sidebar{position:static;width:100%;padding:10px 15px;border-right:0;border-bottom:1px solid #ddd}.sidebar .name{display:inline-block;margin:0 15px 0 0}.sidebar a.nav{display:inline-block;margin:0 10px 0 0}.main{margin:0;padding:16px 15px 40px}h1{font-size:28px}h2{font-size:19px}}
