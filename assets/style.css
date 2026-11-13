@@ -1,16 +1,14 @@
-:root{--blue:#527cbd;--link:#416dae;--gray:#b5b5b5}
+:root{--blue:#5078b8;--link:#416eaf;--gray:#b4b4b4}
 *{box-sizing:border-box}
-body{font-family:"Times New Roman",Times,serif;font-size:16px;line-height:1.25;margin:0;background:#fff;color:#111}
+body{font-family:"Times New Roman",Times,serif;font-size:16px;line-height:1.26;margin:0;background:#fff;color:#111}
 a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
 .sidebar{position:fixed;top:0;bottom:0;left:0;width:130px;padding:28px 7px 15px;background:#f7f7f7;border-right:1px solid #ddd}
 .sidebar .name{font-size:18px;font-weight:bold;color:#111;text-decoration:underline;display:block;line-height:1.15;margin-bottom:5px}
 .sidebar a.nav{display:block;margin-left:8px;font-size:16px}
+.sidebar a.nav.active{color:#111;text-decoration:underline;text-underline-offset:2px}
 .main{margin-left:130px;padding:13px 18px 60px 20px;max-width:1500px}
 h1{font-size:30px;line-height:1.1;font-weight:bold;color:var(--blue);padding:0 0 4px;margin:0 0 26px;border-bottom:3px double #aaa}
-h2{font-size:20px;font-weight:bold;color:var(--blue);border-bottom:1px solid var(--gray);margin:34px 0 9px;padding:0 0 2px}
-p{margin:0 0 11px}
-.profile{padding:0 8px;margin-bottom:30px}
-.profile p{margin:0 0 15px}
-.contact{margin-top:8px}
-.about{max-width:950px}
-@media(max-width:640px){.sidebar{position:static;width:100%;padding:10px 15px;border-right:0;border-bottom:1px solid #ddd}.sidebar .name{display:inline-block;margin:0 15px 0 0}.sidebar a.nav{display:inline-block;margin:0}.main{margin:0;padding:16px 15px 40px}h1{font-size:28px}h2{font-size:19px}}
+h2{font-size:20px;font-weight:bold;color:var(--blue);border-bottom:1px solid var(--gray);margin:32px 0 10px;padding:0 0 2px}
+p{margin:0 0 11px}.profile{padding:0 8px;margin-bottom:32px}.profile p{margin:0 0 15px}.contact{margin-top:8px}
+.about{max-width:950px}.bodycopy{max-width:950px}.simple-list{margin:0 0 14px;padding-left:34px}.simple-list li{margin:7px 0}
+@media(max-width:640px){.sidebar{position:static;width:100%;padding:10px 15px;border-right:0;border-bottom:1px solid #ddd}.sidebar .name{display:inline-block;margin:0 15px 0 0}.sidebar a.nav{display:inline-block;margin:0 10px 0 0}.main{margin:0;padding:16px 15px 40px}h1{font-size:28px}h2{font-size:19px}}
