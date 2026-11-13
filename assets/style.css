@@ -11,6 +11,6 @@ h1{font-size:30px;line-height:1.1;font-weight:bold;color:var(--blue);padding:0 0
 h2{font-size:20px;font-weight:bold;color:var(--blue);border-bottom:1px solid var(--gray);margin:32px 0 10px;padding:0 0 2px}
 p{margin:0 0 11px}.profile{padding:0 8px;margin-bottom:32px}.profile p{margin:0 0 15px}.contact{margin-top:8px}
 .about{max-width:950px}.bodycopy{max-width:950px}.simple-list{margin:0 0 14px;padding-left:34px}.simple-list li{margin:7px 0}
-.home-main{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;padding-bottom:18px}
-.home-main .visit-counter{margin:auto 0 0;padding:28px 8px 0;line-height:1}.visit-counter img{display:block;height:14px;width:auto;opacity:.62}.visit-counter img:hover{opacity:.85}
-@media(max-width:640px){.sidebar{position:static;width:100%;padding:10px 15px;border-right:0;border-bottom:1px solid #ddd}.sidebar .name{display:inline-block;margin:0 15px 0 0}.sidebar a.nav{display:inline-block;margin:0 10px 0 0}.main{margin:0;padding:16px 15px 40px}.home-main{min-height:calc(100dvh - 80px);padding-bottom:18px}h1{font-size:28px}h2{font-size:19px}}
+.sidebar .visit-counter{position:fixed;left:7px;bottom:12px;margin:0;line-height:1;z-index:1}
+.visit-counter img{display:block;height:14px;width:auto;opacity:.62}.visit-counter img:hover{opacity:.85}
+@media(max-width:640px){.sidebar{position:static;width:100%;padding:10px 15px;border-right:0;border-bottom:1px solid #ddd}.sidebar .name{display:inline-block;margin:0 15px 0 0}.sidebar a.nav{display:inline-block;margin:0 10px 0 0}.main{margin:0;padding:16px 15px 40px}h1{font-size:28px}h2{font-size:19px}}
